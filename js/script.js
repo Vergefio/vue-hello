@@ -1,9 +1,14 @@
-const {createApp} = Vue;
+const { createApp } = Vue;
 
-createApp ({
+createApp({
+
     data() {
         return {
-            
+            title: "Ciao",
+            messaggio: "sonny",
+            coloreTesto: "",
+            path: "./img/",
+            imgName: "boolando.png"
         }
-    }
-})
+    },
+}).mount('#app');
