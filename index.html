@@ -4,17 +4,21 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src=https://unpkg.com/vue@3></script>
         <link rel="stylesheet" href="css/style.css">
-        <script src="https://unpkg.com/vue@3"></script>
-        <title>Bosco ciao Vue</title>
+        <title>Bosco Ciao Vue</title>
     </head>
 
     <body>
-        <div id="data">
-            <h1>Il bosco d'autunno</h1>
-            <p>Il bosco in autunno è il trionfo dei colori. Nel letto verde che prima ondeggiava lassù si sono infiltrati il giallo, il rosso, l'arancione e il violetto. I pioppi che circondavano lo stagno seminano una moltitudine di foglie gialle, simili a monete d'oro abbandonate sul muschio di velluto scuro.</p>
-            <img src="img/path-g258427b74_1280.jpg" alt="">
-            <button></button>
+        <div class="container d-flex">
+            <div id="data">
+                <input type="text" v-model="title">
+                <h1>{{title}}</h1>
+                <img src="img/path-g258427b74_1280.jpg" alt="">
+                <img src="img/sugarloaf-rock-g27ece4d5a_1280.jpg" alt="">
+                <p>ddd</p>
+                <button></button>
+            </div>
         </div>
         <script src="js/script.js"></script>
     </body>
