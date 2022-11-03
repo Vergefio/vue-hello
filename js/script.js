@@ -4,11 +4,15 @@ createApp({
 
     data() {
         return {
-            title: "Ciao",
+            title: "",
             messaggio: "sonny",
             coloreTesto: "",
             path: "./img/",
             imgName: "boolando.png"
         }
     },
-}).mount('#app');
+
+    methods: {
+        changeImg: "aaa",
+    }
+}).mount("#app");
